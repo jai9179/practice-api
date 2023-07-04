@@ -1,3 +1,13 @@
+This React project demonstrates how to fetch data from an external API (https://randomuser.me/api/) and display random user details in a dynamic and reusable component. The project utilizes React hooks, such as `useEffect` and `useState`, to handle the API request and manage the component's state.
+
+The `RandomUser` component accepts a `buttonText` prop, which allows customization of the button text. Upon mounting, the component fetches a random user from the API using the `fetch` API. The fetched user data is stored in the component's state using the `useState` hook. When the button is clicked, a new random user is fetched, and the component re-renders with the updated user details.
+
+The rendered user details include the user's profile picture, name, city,state, and location.
+
+The project promotes code reusability and flexibility by utilizing React's component-based architecture and the concept of props. By passing different values for the `buttonText` prop, the `RandomUser` component can be easily customized for different use cases.
+
+Overall, this project provides a solid foundation for integrating APIs into React applications and showcases best practices for managing asynchronous data fetching and component state. It can serve as a starting point for more complex applications that involve fetching and displaying data from external APIs in a React environment.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
